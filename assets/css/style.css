@@ -284,7 +284,7 @@ footer {
         clear: both;
         height: 150px;
         padding: 0;
-        
+
     }
 
     hr {
@@ -327,5 +327,16 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
 
+/* mobile screen max width 800 px */
+
+@media screen and (max-width: 800px){
+    #photos {
+        column-count: 2;
+    }
+}
